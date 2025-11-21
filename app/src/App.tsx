@@ -4,7 +4,7 @@ import { FileInput } from './components/FileInput';
 import { JSONEditor } from './components/JSONEditor';
 import { Toolbar } from './components/Toolbar';
 import { parseJSONString, stringifyToJSONString, formatJSON } from './utils/jsonParser';
-import type { JSONValue, EditorState } from './types';
+import type { EditorState } from './types';
 
 function App() {
   const [editorState, setEditorState] = useState<EditorState>({
